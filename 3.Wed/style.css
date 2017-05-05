@@ -1,0 +1,176 @@
+#facebook-wrapper {
+
+}
+
+#header{
+
+	background-color: #3B5998;
+	height: 30px;
+
+}
+
+#header-inner {
+	max-width: 900px;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+#fb-logo,#fb-search,#mglass{
+	float:left;
+	margin-left: 10px;
+	padding-top: 3px;
+	
+
+}
+
+#fb-logo{
+	height: 24px;
+	width: 24px;
+	background-image: url(https://www.facebook.com/rsrc.php/v3/yu/r/UnZEsNz1oHl.png);
+	background-position:0px -17px;
+	margin-top: 2px;
+}
+
+#fb-search input{
+	width: 400px;
+	height: 15px;
+
+
+}
+
+#mglass{
+	height: 16px;
+	width: 24px;
+	background-image: url(https://www.facebook.com/rsrc.php/v3/yU/r/ujRgtpgUFf7.png);
+	background-position: 0px -496px;
+	position: absolute;
+	left: 925px;
+
+}
+
+#right-header {
+	float: right;	
+}
+
+.fb-icons{
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	line-height:30px;
+	height: 24px;
+	min-width: 24px;
+	margin-left: 10px;
+
+}
+
+.fb-icons.friends{
+	background-image: url(https://www.facebook.com/rsrc.php/v3/yU/r/ujRgtpgUFf7.png);
+	background-position: 0px -11px;
+}
+
+.fb-icons.messages{
+	background-image: url(https://www.facebook.com/rsrc.php/v3/yU/r/ujRgtpgUFf7.png);
+	background-position: 0px -287px;
+}
+
+.fb-icons.notifications{
+	background-image: url(https://www.facebook.com/rsrc.php/v3/yU/r/ujRgtpgUFf7.png);
+	background-position: 0px -87px;
+}
+
+#home-updates .new-feeds {
+	background: rgba(0,0,0,.25);
+	border-radius: 5px;
+	font-size: 10px;
+	padding: 0 10px 1px;
+
+}
+
+#content{
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+
+#left{
+	width: 20%;
+	float: left;
+	margin-left: 15px;
+	list-style: none
+}
+
+
+#middle{
+	width: 50%;
+	border-left: 1px #cacaca solid;
+	border-right: 1px #cacaca solid;
+	margin-left: 400px;
+
+}
+
+#right{
+	width: 25%;
+	float: right;
+}
+
+.left-profile {
+	height: 50px;
+	display: inline-block;
+}
+
+
+.left-profile-image .left-profile-name{
+	vertical-align: top;
+	float: left;
+}
+
+.left-profile-name{
+	margin-left: 20px;
+	line-height: 50px;
+	vertical-align: top;
+	
+}
+
+.favorites-sections{
+	font-family: sans-serif;
+}
+
+
+.favorites-header{
+	margin-left: 1em;
+}
+
+.favorites-items{
+	margin-left: 25px;
+	padding: 2px;
+}
+
+.status-header{
+/*	float: left;*/
+	margin-left: 150px;
+	
+
+}
+
+.status-item1{
+	display: inline-block;
+	margin-left: 20px;
+	padding-bottom:20px;
+	padding-top: 20px;
+}
+
+.status-item2{
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.status-wrapper input{
+	width:72%;
+	margin-left: 5px;
+	height: 25px;
+}
+
+.status-header{
+	border-bottom: 1px #cacaca solid;
+}
