@@ -22,16 +22,27 @@
 		margin-left: 30px;	
 	}
 
+	.searchBar {
+		width: 320px;
+	}
+
+	#Videos {
+		border-left: solid 1px black;
+
+	}
+
+	#Channels {
+		border-left: solid 1px black;
+	}
 
 
 	</style>
 </head
 <body>
 
-<!-- Header Videos --> 
-
 <div class="container-fluid">
 	<div class="row">
+<!-- Left Header -->
 		<div class="col-md-3">
 			<div class="col-md-12">
 				<div class="ylogo"> 
@@ -40,14 +51,52 @@
 			<div class="col-md-12">
 				<div class="BYwords">
 				Broadcast Yourself
+				</div>
 			</div>
 		</div> 
-		<div class="col-md-6">
-		</div>
-		<div class="col-md-3">
-		</div>
 
-
+<!-- Middle Header -->
+		<div class="col-md-5">
+			<div class="col-md-12">
+				<div class="search">
+				<input type="text" class="searchBar">
+				<button type="button">Search</button>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="col-md-6">
+					<div class="col-md-4">
+					Home
+					</div>
+					<div class="col-md-4" id="Videos">
+					<u>Videos</u>
+					</div>
+					<div class="col-md-4" id="Channels">
+					<u>Channels</u>
+					</div>
+				</div>
+				<div class="col-md-6">
+				</div>
+			</div>
+		</div>
+<!-- Right Header -->
+		<div class="col-md-4">
+			<div class="col-md-12" id="Create">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<b><font color="teal">Create Account</font></b> or <b><font color="teal">Sign-in</font></b>
+			</div>
+			<div class="col-md-12">
+				<div class="col-md-4" id="Subscriptions">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subscriptions
+				</div>
+				<div class="col-md-2" id="History">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;History
+				</div>
+				<div class="col-md-6" id="Upload">
+				Upload
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 
