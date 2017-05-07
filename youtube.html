@@ -9,6 +9,11 @@
 <!-- Style -->
 	<style type="text/css" media="screen">
 
+	#container1 {
+		border-bottom: 2px solid black;
+		width: 98%;
+	}
+
 
 	.ylogo{
 		height: 30px;
@@ -35,12 +40,45 @@
 		border-left: solid 1px black;
 	}
 
+	#container2 {
+		padding-top: 20px;
+		
+	}
+
+	#videosBackground {
+		background-color: rgb(128, 128, 128);
+		border: 2px solid black;
+	}
+
+	#bigVideo {
+		float: left;
+	}
+
+	#smallVideo1 {
+		margin-left: 50px;
+		padding-bottom: 10px;
+	}
+
+	.smallVideoTexts {
+		padding-left: 30px;
+	}
+
+	#smallVideo2 {
+		margin-left: 50px;
+		padding-bottom: 10px;
+	}
+
+	#smallVideo3 {
+		margin-left: 50px;
+		padding-bottom: 10px;
+	}
+
 
 	</style>
 </head
 <body>
 
-<div class="container-fluid">
+<div class="container-fluid" id="container1">
 	<div class="row">
 <!-- Left Header -->
 		<div class="col-md-3">
@@ -82,15 +120,15 @@
 <!-- Right Header -->
 		<div class="col-md-4">
 			<div class="col-md-12" id="Create">
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<b><font color="teal">Create Account</font></b> or <b><font color="teal">Sign-in</font></b>
 			</div>
 			<div class="col-md-12">
 				<div class="col-md-4" id="Subscriptions">
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subscriptions
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subscriptions
 				</div>
 				<div class="col-md-2" id="History">
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;History
+				History
 				</div>
 				<div class="col-md-6" id="Upload">
 				Upload
@@ -101,6 +139,37 @@
 </div>
 
 
+<div class="container-fluid" id="container2">
+	<div class="row">
+<!--  Left Featured Row -->
+		<div class="col-md-9" id="videosBackground">
+		Featured<br>
+			<div class="col-md-6">
+				<img src="http://placehold.it/550x390" id="bigVideo">
+			</div>
+			<div class="col-md-2">
+				<img src="http://placehold.it/125x125" id="smallVideo1"><br>
+				<img src="http://placehold.it/125x125" id="smallVideo2"><br>
+				<img src="http://placehold.it/125x125" id="smallVideo3"><br>
+			</div>
+			<div class="col-md-4" id="smallVideosTexts">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_____________________________
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_____________________________<br>
 
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_____________________________
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_____________________________
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_____________________________<br>
+
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_____________________________
+		
+			</div>
+		</div>
+
+
+		<div class="col-md-3">
+		</div>
+
+	</div>
+</div>
 </body>
 </html>
